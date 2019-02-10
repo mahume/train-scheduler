@@ -33,7 +33,7 @@
                             <th class="border-top-0" scope="col">Minutes Away</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="trainDataDisplay">
                           
                     </tbody>
                 </table>
@@ -46,31 +46,32 @@
         <div class="card">
             <div class="card-header">Add Train</div>
             <div class="container my-3">
-                <form>
+                <form id="trainInputForm">
                     <div class="form-group">
                         <label for="trainNameInput">Train Name</label>
-                        <input type="text" class="form-control" id="trainNameInput">
+                        <input type="text" class="form-control" id="trainNameInput" required>
                     </div>
                     <div class="form-group">
                         <label for="destinationInput">Destination</label>
-                        <input type="text" class="form-control" id="destinationInput">
+                        <input type="text" class="form-control" id="destinationInput" required>
                     </div>
                     <div class="form-group">
                         <label for="firstTrainInput">First Train Time (HH:mm - military time)</label>
-                        <input type="text" class="form-control" id="firstTrainInput">
+                        <input type="text" class="form-control" id="firstTrainInput" required>
                     </div>
                     <div class="form-group">
                         <label for="frequencyInput">Frequency (min)</label>
-                        <input type="text" class="form-control" id="frequencyInput">
+                        <input type="number" class="form-control" id="frequencyInput" required>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button id="submitButton" type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
         </div>
     </div>
 
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="assets/js/app.js"></script>
 </body>
 </html>
