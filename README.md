@@ -16,14 +16,16 @@ Train Scheduling App with database storage capabilities.
 4. Enter arrival frequency of Train
 5. Click Submit to add information to database and populate chart
 
-## Built with
-    - HTML5
-    - CSS3
-        - Bootstrap 4
-    - JavaScript
-        - jQuery
-    - Database
-        - Firebase
+## Technologies
+
+Built using using core front-end technologies. Basic structure using HTML5. Layout and styling done with Bootstrap4's grid system and CSS3. Functionality is written with a combination of jQuery and vanilla JavaScript. Data storage is done using Firebase.
+
+- HTML5
+- CSS3
+  - Bootstrap 4
+- JavaScript
+  - jQuery
+- Firebase
 
 ## Authors
 
