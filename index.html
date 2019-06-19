@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Train Scheduler</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
+
 <body>
 
     <!-- Jumbotron -->
@@ -17,7 +23,7 @@
             <h1 class="display-4">Train Scheduler</h1>
         </div>
     </div>
-    
+
     <!-- Train Schedule -->
     <div class="container mb-4">
         <div class="card">
@@ -34,7 +40,7 @@
                         </tr>
                     </thead>
                     <tbody id="trainDataDisplay">
-                          
+
                     </tbody>
                 </table>
             </div>
@@ -69,9 +75,14 @@
         </div>
     </div>
 
+    <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Firebase -->
     <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+    <!-- moment.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <!-- JS -->
+    <script src="./src/js/app.js"></script>
 </body>
+
 </html>
