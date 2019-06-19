@@ -1,8 +1,15 @@
 # Train Scheduler
-Train Scheduling App with database capabilities
+
+![Train Scheduler](./src/assets/images/homepage.png)
+
+## About
+
+Train Scheduling App with database storage capabilities.
 
 ## Getting Started
-Instructions:
+
+[Test it out](https://mahume.github.io/train-scheduler/)
+
 1. Enter Train Name
 2. Enter final destination
 3. Enter time in military format (16:25)
@@ -19,5 +26,6 @@ Instructions:
         - Firebase
 
 ## Authors
-Mike Hume
+
+[Mike Hume](https://mahume.github.io/)
 
